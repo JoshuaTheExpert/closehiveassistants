@@ -5,16 +5,13 @@ import styles from "./page.module.css";
 
 const Home = () => {
   const categories = {
-    "Basic chat": "basic-chat",
-    "Function calling": "function-calling",
-    "File search": "file-search",
-    All: "all",
+    start: "start",
   };
 
   return (
     <main className={styles.main}>
       <div className={styles.title}>
-        CloseHive Assistants Workshop
+        Tokens Tokens get your Tokens
       </div>
       <div className={styles.container}>
         {Object.entries(categories).map(([name, url]) => (
