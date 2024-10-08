@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 
 const Home = () => {
   const categories = {
-    start: "start",
+    All: "all",
   };
 
   return (
